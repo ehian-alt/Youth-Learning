@@ -36,4 +36,4 @@ for name in name_list:
     pos = requests.post(post_url, headers=headers, json=data)
     # 状态码为[200]表示成功
     print(f"{name}\t成功")
-    time.sleep(3)
+    time.sleep(1)
