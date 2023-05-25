@@ -19,7 +19,7 @@ course = "%s" % json.loads(id_info.text.replace('\'', '\"'))['result']['id']
 
 # 所属组织编号
 nid = input("所属组织编号:")
-# 备注（可选）
+# # 备注（可选）
 # Org = input("备注:")
 # 读取姓名文件实现批量刷记录
 with open("name_list.txt", 'r', encoding='utf-8') as f:
@@ -34,6 +34,7 @@ for name in name_list:
     }
     # 发起post请求
     pos = requests.post(post_url, headers=headers, json=data)
-    # 状态码为[200]表示成功
+    # # 状态码为[200]表示成功
+    # print(pos)
     print(f"{name}\t成功")
     time.sleep(1)
