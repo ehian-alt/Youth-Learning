@@ -25,3 +25,5 @@
 
 ###### 现在就可以通过这些来编写一个简单的刷一条记录的python代码了！！
 
+* [第一次的代码](https://github.com/ehian-alt/Youth-Learning/edit/main/code/first_version.py)，只由键盘输入id、编号、姓名之类的
+* 通过读取文件 `name_list.txt` 实现批量刷记录，就成为了[第二版的代码](https://github.com/ehian-alt/Youth-Learning/edit/main/code/second_version.py)
